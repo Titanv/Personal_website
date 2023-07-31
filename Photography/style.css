@@ -1,0 +1,43 @@
+
+
+div {
+  font-family: Helvetica;
+  background-color: #272D33;
+  color: white;
+  font-size: 32px;
+  padding: 5px;
+  display: flex;
+}
+
+
+nav {
+  background-color: #272D33;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+img {
+  width: 250px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: burlywood;
+}
+img:hover{
+  background-color: aliceblue;
+  opacity:0.5;
+  zoom: 500px;
+}
+img::-ms-backdrop
+
+.items:hover{
+  background-color: grey;
+  opacity:0.5;
+}
+
+a{
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+} 
